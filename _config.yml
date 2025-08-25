@@ -1,6 +1,6 @@
 title: "Juba Agoun Associate"
 baseurl: ""
-url: "https://juba-agoun.github.io/"
+url: "https://juba-agoun.github.io/en/index.html"
 
 plugins:
   - jekyll-polyglot
