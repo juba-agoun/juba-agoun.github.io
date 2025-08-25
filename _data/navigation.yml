@@ -1,0 +1,23 @@
+fr:
+  - title: "À propos"
+    url: "#apropos"
+  - title: "Recherche"
+    url: "#recherche"
+  - title: "Publications"
+    url: "#publications"
+  - title: "Enseignement"
+    url: "#enseignement"
+  - title: "Contact"
+    url: "#contact"
+
+en:
+  - title: "About"
+    url: "#about"
+  - title: "Research"
+    url: "#research"
+  - title: "Publications"
+    url: "#publications"
+  - title: "Teaching"
+    url: "#teaching"
+  - title: "Contact"
+    url: "#contact"
