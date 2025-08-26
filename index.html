@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var userLang = navigator.language || navigator.userLanguage;
+      userLang = userLang.substring(0, 2); // ex: "fr", "en"
+      
+      if (userLang === "fr") {
+        window.location.href = "/fr/";
+      } else {
+        window.location.href = "/en/";
+      }
+    });
+  </script>
+</head>
+<body>
+  <p>Redirecting to your language version...</p>
+</body>
+</html>
