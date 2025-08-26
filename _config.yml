@@ -1,10 +1,22 @@
 title: "Juba Agoun Associate"
 baseurl: ""
-url: "https://juba-agoun.github.io/en/index.html"
+url: "https://juba-agoun.github.io/"
 
 plugins:
   - jekyll-polyglot
 
+defaults:
+  - scope:
+      path: "fr"
+      type: "pages"
+    values:
+      lang: "fr"
+  - scope:
+      path: "en"
+      type: "pages"
+    values:
+      lang: "en"
+      
 languages: ["fr", "en"]
-default_lang: "fr"
+default_lang: "en"
 exclude_from_localization: ["assets", "favicon.ico"]
