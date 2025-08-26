@@ -15,7 +15,17 @@ title: "Accueil"
             <img src="../img/juba-agoun.jpg" alt="Photo de profil de Juba Agoun" class="rounded-full border-4 border-gray-700 w-64 h-64 object-cover shadow-2xl">
         </div>
         <div class="md:w-3/4 text-lg leading-relaxed space-y-4">
-            <p>Je suis enseignant-chercheur à l'Université Lumière Lyon 2 depuis septembre 2023. Je suis responsable du programme "Data Visualization and Decision-Making Tool Design" au sein du département Data Science de l'IUT Lumière, où j'enseigne la programmation Python, les bases de données NoSQL, la migration de données relationnelles à non-relationnelles, le Big Data et le Big Data avancé, ainsi que la sécurité des données. Je suis membre de l'équipe SID de l'unité de recherche ERIC. Mes principaux intérêts de recherche sont liés à la gestion des données (Big Data, Datalakes, Polystores, bases de données vectorielles), au partage de données, à l'analyse de données et à la sécurité des données.</p>
+          <p>
+            Je suis enseignant-chercheur à 
+            <a href="https://www.univ-lyon2.fr/" target="_blank">l'Université Lumière Lyon 2</a> 
+            depuis septembre 2023. Je suis responsable du parcours 
+            "Visualisation, Conception d'Outils Décisionnels" au sein du  
+            <a href="https://iut.univ-lyon2.fr/formations/but/but-science-des-donnees/" target="_blank">département Data Science de l'IUT Lumière</a>, 
+            où j'enseigne la programmation Python, les bases de données NoSQL, la migration de données relationnelles à non-relationnelles, le Big Data et le Big Data avancé, ainsi que la sécurité des données. 
+            Je suis membre de l'équipe SID de l'unité de recherche 
+            <a href="https://eric.msh-lse.fr/" target="_blank">ERIC</a>. 
+            Mes principaux intérêts de recherche sont liés à la gestion des données (Big Data, Datalakes, Polystores, bases de données vectorielles), au partage de données, à l'analyse de données et à la sécurité des données.
+          </p>
         </div>
     </div>
 </section>
@@ -25,6 +35,7 @@ title: "Accueil"
   <ul class="list-disc list-inside">
     <li>Gestion de données (Big Data, Datalakes, Polystores...)</li>
     <li>Partage de données et sécurité</li>
-    <li>Analyse de données</li>
+    <li>Analyse de données de santé</li>
+    <li>Explicabilité</li>
   </ul>
 </section>
