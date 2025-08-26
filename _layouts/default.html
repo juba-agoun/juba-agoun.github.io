@@ -17,9 +17,25 @@
   </header>
   <nav class="bg-gray-800 bg-opacity-70 shadow-lg sticky top-0 z-50 backdrop-blur-sm">
     <div class="container mx-auto px-4 py-3 flex flex-wrap justify-center sm:justify-center text-md font-medium">
-      {% for link in site.data.navigation[site.active_lang] %}
-        <a href="{{ link.url }}" class="px-5 py-2 text-gray-300 hover:text-white rounded-lg transition-colors duration-200 hover:bg-gray-700">{{ link.title }}</a>
-      {% endfor %}
+      <nav class="bg-gray-800 bg-opacity-70 shadow-lg sticky top-0 z-50 backdrop-blur-sm">
+  <div class="container mx-auto px-4 py-3 flex flex-wrap justify-center sm:justify-center text-md font-medium">
+    {% if page.lang == "fr" %}
+      <a href="#apropos" class="px-5 py-2 text-gray-300 hover:text-white">À propos</a>
+      <a href="#recherche" class="px-5 py-2 text-gray-300 hover:text-white">Recherche</a>
+      <a href="#publications" class="px-5 py-2 text-gray-300 hover:text-white">Publications</a>
+      <a href="#enseignement" class="px-5 py-2 text-gray-300 hover:text-white">Enseignement</a>
+      <a href="#contact" class="px-5 py-2 text-gray-300 hover:text-white">Contact</a>
+      <a href="/en/" class="ml-6 text-accent">English</a>
+    {% else %}
+      <a href="#about" class="px-5 py-2 text-gray-300 hover:text-white">About</a>
+      <a href="#research" class="px-5 py-2 text-gray-300 hover:text-white">Research</a>
+      <a href="#publications" class="px-5 py-2 text-gray-300 hover:text-white">Publications</a>
+      <a href="#teaching" class="px-5 py-2 text-gray-300 hover:text-white">Teaching</a>
+      <a href="#contact" class="px-5 py-2 text-gray-300 hover:text-white">Contact</a>
+      <a href="/fr/" class="ml-6 text-accent">Français</a>
+    {% endif %}
+  </div>
+</nav>
     </div>
   </nav>
   <main class="container mx-auto px-4 py-16">
