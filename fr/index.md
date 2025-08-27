@@ -44,6 +44,26 @@ title: "Accueil"
   </ul>
 </section>
 
+<section id="publications" class="section-box rounded-3xl p-10 mb-16">
+  <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
+    Publications et Projets
+  </h2>
+  <div class="space-y-8 text-lg">
+    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+    {% for pub in pubs %}
+      <article class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
+        <h3 class="font-semibold text-xl mb-2">{{ pub.title }}</h3>
+        <p class="italic text-gray-400">{{ pub.authors }} — {{ pub.year }}</p>
+        <p class="mt-2 text-sm">{{ pub.venue }}</p>
+        {% if pub.link %}
+          <a href="{{ pub.link }}" target="_blank" class="text-red-500">Lire</a>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+
 <section id="enseignement" class="section-box rounded-3xl p-10 mb-16">
     <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
         <!-- Icône de tableau pour la section "Enseignement" -->
@@ -76,27 +96,3 @@ title: "Accueil"
 </section>
 
 
-<section id="publications" class="section-box rounded-3xl p-10 mb-16">
-  <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
-    <!-- Icône de livre pour la section "Publications" -->
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V6H6.5A2.5 2.5 0 0 0 4 8.5v11z"></path>
-      <path d="M12 2v20"></path>
-    </svg>
-    Publications et Projets
-  </h2>
-
-  <div class="space-y-8 text-lg">
-    {% assign pubs = site.data.publications | sort: "year" | reverse %}
-    {% for pub in pubs %}
-      <article class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
-        <h3 class="font-semibold text-xl mb-2">{{ pub.title }}</h3>
-        <p class="italic text-gray-400">{{ pub.authors }} — {{ pub.year }}</p>
-        <p class="mt-2 text-sm">{{ pub.venue }}</p>
-        {% if pub.link %}
-          <a href="{{ pub.link }}" target="_blank" class="text-red-500">Lire</a>
-        {% endif %}
-      </article>
-    {% endfor %}
-  </div>
-</section>
