@@ -62,8 +62,8 @@ title: "Accueil"
       </article>
     {% endfor %}
   </div>
-
-  <h3 class="font-semibold text-xl mb-2 ">Retrouvez toutes mes publications sur : <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank"> ⚡Google Scholar⚡</a>
+  <br>
+  <h3 class="font-semibold text-xl mb-2 ">Retrouvez toutes mes publications sur mon <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank"> ⚡Google Scholar⚡</a>
   </h3> 
 </section>
 
