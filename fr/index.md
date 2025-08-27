@@ -62,6 +62,7 @@ title: "Accueil"
       </article>
     {% endfor %}
   </div>
+  
   <br>
   <h3 class="font-semibold text-xl mb-2 ">Retrouvez toutes mes publications sur mon <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank"> ⚡Google Scholar⚡</a>
   </h3> 
@@ -70,8 +71,6 @@ title: "Accueil"
 
 <section id="enseignement" class="section-box rounded-3xl p-10 mb-16">
     <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
-        <!-- Icône de tableau pour la section "Enseignement" -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4"></path><path d="M10 2c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4"></path><path d="M6 2c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4"></path><path d="M18 2c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4"></path><path d="M22 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M16 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M12 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M8 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M2 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M18 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M14 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M10 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M6 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M2 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M20 2v20"></path><path d="M4 2v20"></path></svg>
         Enseignement
     </h2>
     <div class="space-y-8 text-lg">
@@ -109,7 +108,7 @@ title: "Accueil"
     <div class="space-y-8 text-lg">
         <!-- procjects organized by time-->
         <div class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
-            <h3 class="font-semibold text-xl mb-2 text-accent">Ongoing</h3>
+            <h3 class="font-semibold text-xl mb-2 text-accent">En cours</h3>
             <ul class="list-disc list-inside space-y-1 text-gray-400">
                 <li>AUTONOM-HEALTH - Health, behaviors and autonomous digital technologies 
                 <a href="https://anr.fr/ProjetIA-22-PESN-0009"  class="gold-link" target="_blank">Voir plus</a> 
@@ -123,9 +122,9 @@ title: "Accueil"
             </ul>
         </div>
         <div class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
-            <h3 class="font-semibold text-xl mb-2 text-accent">Past</h3>
+            <h3 class="font-semibold text-xl mb-2 text-accent">Finalisés</h3>
             <ul class="list-disc list-inside space-y-1 text-gray-400">
-              <li>Monitoring multidimensional aspects of QUAlity of Life after cancer ImmunoTherapy - an Open smart digital Platform for personalized prevention and patient management
+              <li>QUALITOP - Monitoring multidimensional aspects of QUAlity of Life after cancer ImmunoTherapy 
                   <a href="https://cordis.europa.eu/project/id/875171"  class="gold-link" target="_blank">Voir plus</a> 
               </li>
               <li>Cyberspace Threat Identification, Analysis and Proactive Response

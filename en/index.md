@@ -57,16 +57,14 @@ title: "Home"
       </article>
     {% endfor %}
   </div>
+  
   <br>
-  <h3 class="font-semibold text-xl mb-2 ">Find more publication on my <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank">⚡Google Scholar⚡</a>
+  <h3 class="font-semibold text-xl mb-2 ">Find more about my publication on my <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank">⚡Google Scholar⚡</a>
   </h3>
-
 </section>
 
 <section id="teaching" class="section-box rounded-3xl p-10 mb-16">
     <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
-        <!-- Icon for the "Teaching" section -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4"></path><path d="M10 2c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4"></path><path d="M6 2c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4"></path><path d="M18 2c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4"></path><path d="M22 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M16 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M12 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M8 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M2 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M18 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M14 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M10 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M6 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M2 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M20 2v20"></path><path d="M4 2v20"></path></svg>
         Teaching
     </h2>
     <div class="space-y-8 text-lg">
