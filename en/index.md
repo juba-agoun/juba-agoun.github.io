@@ -42,7 +42,7 @@ title: "Home"
 
 <section id="publications" class="section-box rounded-3xl p-10 mb-16">
   <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
-    Publications et Projets 
+    Publications 
   </h2>
   <div class="space-y-8 text-lg">
     {% assign pubs = site.data.publications | sort: "year" | reverse| slice:0,4 %}
