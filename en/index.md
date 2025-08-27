@@ -17,13 +17,13 @@ title: "Home"
         <div class="md:w-3/4 text-lg leading-relaxed space-y-4">
           <p>
             I have been an Associate Professor at 
-            <a href="https://www.univ-lyon2.fr/" target="_blank">Université Lumière Lyon 2</a> 
+            <a href="https://www.univ-lyon2.fr/" class="gold-link"  target="_blank">Université Lumière Lyon 2</a> 
             since September 2023. I am in charge of the program 
             "Visualization, Design of Decision-Making Tools" within the  
-            <a href="https://iut.univ-lyon2.fr/formations/but/but-science-des-donnees/" target="_blank">Data Science Department at IUT Lumière</a>, 
+            <a href="https://iut.univ-lyon2.fr/formations/but/but-science-des-donnees/" class="gold-link"  target="_blank">Data Science Department at IUT Lumière</a>, 
             where I teach Python programming, NoSQL databases, the migration from relational to non-relational data, Big Data and Advanced Big Data, as well as Data Security. 
             I am a member of the SID team of the research unit  
-            <a href="https://eric.msh-lse.fr/" target="_blank">ERIC</a>. 
+            <a href="https://eric.msh-lse.fr/"  class="gold-link" target="_blank">ERIC</a>. 
             My main research interests are related to data management (Big Data, Data Lakes, Polystores, vector databases), data sharing, data analysis, and data security.
           </p>
         </div>

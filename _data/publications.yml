@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+
+- title: "Query optimization applied to API composition"
+  authors: "Karim Benouaret, Toi"
+  year: 2022
+  venue: "ICWS Conference"
+  link: "https://doi.org/xxx"
+
+- title: "Data sharing aware of access control policies"
+  authors: "Toi"
+  year: 2021
+  venue: "PhD Thesis, Université Lyon 1"
+  link: "https://tel.archives-ouvertes.fr/xxx"

@@ -17,13 +17,13 @@ title: "Accueil"
         <div class="md:w-3/4 text-lg leading-relaxed space-y-4">
           <p>
             Je suis enseignant-chercheur à 
-            <a href="https://www.univ-lyon2.fr/" target="_blank">l'Université Lumière Lyon 2</a> 
+            <a href="https://www.univ-lyon2.fr/" class="gold-link" target="_blank">l'Université Lumière Lyon 2</a> 
             depuis septembre 2023. Je suis responsable du parcours 
             "Visualisation, Conception d'Outils Décisionnels" au sein du  
-            <a href="https://iut.univ-lyon2.fr/formations/but/but-science-des-donnees/" target="_blank">département Data Science de l'IUT Lumière</a>, 
+            <a href="https://iut.univ-lyon2.fr/formations/but/but-science-des-donnees/"  class="gold-link" target="_blank">département Data Science de l'IUT Lumière</a>, 
             où j'enseigne la programmation Python, les bases de données NoSQL, la migration de données relationnelles à non-relationnelles, le Big Data et le Big Data avancé, ainsi que la sécurité des données. 
             Je suis membre de l'équipe SID de l'unité de recherche 
-            <a href="https://eric.msh-lse.fr/" target="_blank">ERIC</a>. 
+            <a href="https://eric.msh-lse.fr/" class="gold-link" target="_blank">ERIC</a>. 
             Mes principaux intérêts de recherche sont liés à la gestion des données (Big Data, Datalakes, Polystores, bases de données vectorielles), au partage de données, à l'analyse de données et à la sécurité des données.
           </p>
         </div>
@@ -73,4 +73,30 @@ title: "Accueil"
             </ul>
         </div>
     </div>
+</section>
+
+
+<section id="publications" class="section-box rounded-3xl p-10 mb-16">
+  <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
+    <!-- Icône de livre pour la section "Publications" -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V6H6.5A2.5 2.5 0 0 0 4 8.5v11z"></path>
+      <path d="M12 2v20"></path>
+    </svg>
+    Publications et Projets
+  </h2>
+
+  <div class="space-y-8 text-lg">
+    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+    {% for pub in pubs %}
+      <article class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
+        <h3 class="font-semibold text-xl mb-2">{{ pub.title }}</h3>
+        <p class="italic text-gray-400">{{ pub.authors }} — {{ pub.year }}</p>
+        <p class="mt-2 text-sm">{{ pub.venue }}</p>
+        {% if pub.link %}
+          <a href="{{ pub.link }}" target="_blank" class="text-red-500">Lire</a>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
 </section>
