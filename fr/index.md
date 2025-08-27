@@ -48,9 +48,8 @@ title: "Accueil"
   <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
     Publications et Projets
   </h2>
-  <h4 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
-    Retrouvez toutes mes publication sur mon : <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank">Google Scholar</a>.
-  </h4>  
+  <h3 class="font-semibold text-xl mb-2 text-accent">Retrouvez toutes mes publications sur mon : <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank"> ⚡Google Scholar⚡</a>.
+  </h3>  
   <div class="space-y-8 text-lg">
     {% assign pubs = site.data.publications | sort: "year" | reverse | slice:0,4 %}
     {% for pub in pubs %}
@@ -99,3 +98,38 @@ title: "Accueil"
 </section>
 
 
+
+
+<section id="projets" class="section-box rounded-3xl p-10 mb-16">
+    <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">      
+        Projets
+    </h2>
+    <div class="space-y-8 text-lg">
+        <!-- procjects organized by time-->
+        <div class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
+            <h3 class="font-semibold text-xl mb-2 text-accent">Ongoing</h3>
+            <ul class="list-disc list-inside space-y-1 text-gray-400">
+                <li>AUTONOM-HEALTH - Health, behaviors and autonomous digital technologies 
+                <a href="https://anr.fr/ProjetIA-22-PESN-0009"  class="gold-link" target="_blank">Voir plus</a> 
+                </li>
+                <li>Theoretical Framework for Designing and Analyzing Resilient Smart Cyber Systems
+                <a href="https://rscs-fr-us.projet.liris.cnrs.fr/"  class="gold-link" target="_blank">Voir plus</a> 
+                </li>
+                <li>DataLAC : Données, Archives et Textes Archéologiques
+                <a href="https://anr.fr/Projet-ANR-24-CE54-1690"  class="gold-link" target="_blank">Voir plus</a> 
+                </li>
+            </ul>
+        </div>
+        <div class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
+            <h3 class="font-semibold text-xl mb-2 text-accent">Past</h3>
+            <ul class="list-disc list-inside space-y-1 text-gray-400">
+              <li>Monitoring multidimensional aspects of QUAlity of Life after cancer ImmunoTherapy - an Open smart digital Platform for personalized prevention and patient management
+                  <a href="https://cordis.europa.eu/project/id/875171"  class="gold-link" target="_blank">Voir plus</a> 
+              </li>
+              <li>Cyberspace Threat Identification, Analysis and Proactive Response
+                  <a href="https://projet.liris.cnrs.fr/cyber/workshops.html"  class="gold-link" target="_blank">Voir plus</a> 
+              </li>
+              </ul>
+        </div>
+    </div>
+</section>
