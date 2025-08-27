@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-<section id="apropos" class="section-box rounded-3xl p-10 mb-16">
+<section id="about" class="section-box rounded-3xl p-10 mb-16">
     <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
         <!-- Icône utilisateur pour la section "À propos" -->
         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -33,8 +33,9 @@ title: "Home"
 <section id="research" class="section-box rounded-3xl p-10 mb-16">
   <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4">Research Interests</h2>
   <ul class="list-disc list-inside">
-    <li>Data management (Big Data, Datalakes, Polystores...)</li>
+    <li>Data management (Big Data, Data Lakes, Polystores...)</li>
     <li>Data sharing and security</li>
-    <li>Data analysis</li>
+    <li>Health data analysis</li>
+    <li>Explainability</li>
   </ul>
 </section>

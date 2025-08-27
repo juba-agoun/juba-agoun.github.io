@@ -31,11 +31,46 @@ title: "Accueil"
 </section>
 
 <section id="recherche" class="section-box rounded-3xl p-10 mb-16">
-  <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4">Intérêts de recherche</h2>
+  <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
+      <!-- Icône d'ampoule pour la section "Recherche" -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1.3.5 2.6 1.5 3.5.8.8 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path><path d="M8 22h8"></path><path d="M12 14v8"></path></svg>
+      Intérêts de recherche
+  </h2>
   <ul class="list-disc list-inside">
     <li>Gestion de données (Big Data, Datalakes, Polystores...)</li>
     <li>Partage de données et sécurité</li>
     <li>Analyse de données de santé</li>
     <li>Explicabilité</li>
   </ul>
+</section>
+
+<section id="enseignement" class="section-box rounded-3xl p-10 mb-16">
+    <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
+        <!-- Icône de tableau pour la section "Enseignement" -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4"></path><path d="M10 2c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4"></path><path d="M6 2c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4"></path><path d="M18 2c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4"></path><path d="M22 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M16 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M12 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M8 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M2 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M18 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M14 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M10 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M6 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M2 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M20 2v20"></path><path d="M4 2v20"></path></svg>
+        Enseignement
+    </h2>
+    <div class="space-y-8 text-lg">
+        <!-- Détails des cours extraits du CV, organisés par niveau -->
+        <div class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
+            <h3 class="font-semibold text-xl mb-2 text-accent">Licence</h3>
+            <ul class="list-disc list-inside space-y-1 text-gray-400">
+                <li>Algorithmique et structures de données</li>
+                <li>Programmation orientée objet avec Java</li>
+                <li>Programmation web (PHP, HTML, CSS, JavaScript)</li>
+                <li>Bases de données pour le web (SQL)</li>
+            </ul>
+        </div>
+        <div class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
+            <h3 class="font-semibold text-xl mb-2 text-accent">Master</h3>
+            <ul class="list-disc list-inside space-y-1 text-gray-400">
+                <li>Big Data et visualisation (Hadoop, Spark, Kafka)</li>
+                <li>Développement d'applications web avec conteneurisation (Docker)</li>
+                <li>Bases de données non relationnelles (MongoDB, Neo4J, Cassandra, Redis)</li>
+                <li>Analyse de données (Pandas, GGplot)</li>
+                <li>Sécurité des systèmes d'information (Contrôle d'acces, Anonymisation, IT Risk managment avec EBIOS)</li>
+                <li>Ingénierie logicielle (Design patterns, Git, GitLab CI/CD)</li>
+            </ul>
+        </div>
+    </div>
 </section>
