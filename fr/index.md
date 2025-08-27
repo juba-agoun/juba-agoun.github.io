@@ -48,8 +48,7 @@ title: "Accueil"
   <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
     Publications et Projets
   </h2>
-  <h3 class="font-semibold text-xl mb-2 text-accent">Retrouvez toutes mes publications sur mon : <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank"> ⚡Google Scholar⚡</a>.
-  </h3>  
+ 
   <div class="space-y-8 text-lg">
     {% assign pubs = site.data.publications | sort: "year" | reverse | slice:0,4 %}
     {% for pub in pubs %}
@@ -63,6 +62,9 @@ title: "Accueil"
       </article>
     {% endfor %}
   </div>
+
+  <h3 class="font-semibold text-xl mb-2 ">Retrouvez toutes mes publications sur : <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank"> ⚡Google Scholar⚡</a>
+  </h3> 
 </section>
 
 

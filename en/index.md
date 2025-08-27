@@ -44,10 +44,8 @@ title: "Home"
   <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
     Publications et Projets 
   </h2>
-  <h3 class="font-semibold text-xl mb-2 text-accent"> Find more publication on my : <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank">⚡Google Scholar⚡</a>.
-  </h4>
   <div class="space-y-8 text-lg">
-    {% assign pubs = site.data.publications | sort: "year" | reverse| limit:4 %}
+    {% assign pubs = site.data.publications | sort: "year" | reverse| slice:0,4 %}
     {% for pub in pubs %}
       <article class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
         <h3 class="font-semibold text-xl mb-2">{{ pub.title }}</h3>
@@ -59,6 +57,10 @@ title: "Home"
       </article>
     {% endfor %}
   </div>
+
+  <h3 class="font-semibold text-xl mb-2 text-accent"> Find more publication on my : <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank">⚡Google Scholar⚡</a>
+  </h3>
+
 </section>
 
 <section id="teaching" class="section-box rounded-3xl p-10 mb-16">
@@ -116,7 +118,7 @@ title: "Home"
         <div class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
             <h3 class="font-semibold text-xl mb-2 text-accent">Past</h3>
             <ul class="list-disc list-inside space-y-1 text-gray-400">
-              <li>Monitoring multidimensional aspects of QUAlity of Life after cancer ImmunoTherapy - an Open smart digital Platform for personalized prevention and patient management
+              <li>QUALITOP - Monitoring multidimensional aspects of QUAlity of Life after cancer ImmunoTherapy 
                   <a href="https://cordis.europa.eu/project/id/875171"  class="gold-link" target="_blank">See more</a> 
               </li>
               <li>Cyberspace Threat Identification, Analysis and Proactive Response
