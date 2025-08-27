@@ -39,3 +39,34 @@ title: "Home"
     <li>Explainability</li>
   </ul>
 </section>
+
+<section id="teaching" class="section-box rounded-3xl p-10 mb-16">
+    <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
+        <!-- Icon for the "Teaching" section -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4"></path><path d="M10 2c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4"></path><path d="M6 2c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4c.8 1.1 1.2 2.5 1.2 4s-.4 2.9-1.2 4"></path><path d="M18 2c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4c-.8 1.1-1.2 2.5-1.2 4s.4 2.9 1.2 4"></path><path d="M22 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M16 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M12 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M8 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M2 22h-4c-1.1 0-2 .9-2 2v0"></path><path d="M18 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M14 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M10 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M6 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M2 2h-4c-1.1 0-2 .9-2 2v0"></path><path d="M20 2v20"></path><path d="M4 2v20"></path></svg>
+        Teaching
+    </h2>
+    <div class="space-y-8 text-lg">
+        <!-- Courses organized by level -->
+        <div class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
+            <h3 class="font-semibold text-xl mb-2 text-accent">Undergraduate</h3>
+            <ul class="list-disc list-inside space-y-1 text-gray-400">
+                <li>Algorithms and data structures</li>
+                <li>Object-oriented programming with Java</li>
+                <li>Web programming (PHP, HTML, CSS, JavaScript)</li>
+                <li>Databases for the web (SQL)</li>
+            </ul>
+        </div>
+        <div class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
+            <h3 class="font-semibold text-xl mb-2 text-accent">Graduate</h3>
+            <ul class="list-disc list-inside space-y-1 text-gray-400">
+                <li>Big Data and visualization (Hadoop, Spark, Kafka)</li>
+                <li>Web application development with containerization (Docker)</li>
+                <li>Non-relational databases (MongoDB, Neo4J, Cassandra, Redis)</li>
+                <li>Data analysis (Pandas, GGplot)</li>
+                <li>Information systems security (Access control, Anonymization, IT Risk Management with EBIOS)</li>
+                <li>Software engineering (Design patterns, Git, GitLab CI/CD)</li>
+            </ul>
+        </div>
+    </div>
+</section>
