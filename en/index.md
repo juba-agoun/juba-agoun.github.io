@@ -42,10 +42,13 @@ title: "Home"
 
 <section id="publications" class="section-box rounded-3xl p-10 mb-16">
   <h2 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
-    Publications et Projets
+    Publications et Projets 
   </h2>
+  <h4 class="text-4xl font-bold text-accent mb-8 border-b-2 border-accent pb-4 flex items-center">
+    Find more publication on my : <a href="https://scholar.google.com/citations?hl=fr&user=pT-ZQfIAAAAJ&view_op=list_works&sortby=pubdate"  class="gold-link" target="_blank">Google Scholar</a>.
+  </h4>
   <div class="space-y-8 text-lg">
-    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+    {% assign pubs = site.data.publications | sort: "year" | reverse| limit:4 %}
     {% for pub in pubs %}
       <article class="p-6 rounded-xl border-2 border-gray-700 hover:border-accent transition-colors duration-300">
         <h3 class="font-semibold text-xl mb-2">{{ pub.title }}</h3>
