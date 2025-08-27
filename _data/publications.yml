@@ -1,11 +1,47 @@
-- title: "Thèse de doctorat : Data sharing aware of access control policies"
-  authors: "Juba Agoun"
-  year: 2021
-  venue: "Université Claude Bernard Lyon 1, LIRIS CNRS UMR 5205"
-  link: "https://tel.archives-ouvertes.fr/tel-03412345"
+- title: "Strategic Predictive Maintenance for Internet System Security and Risk Management: A Roadmap"
+  authors: "AA Meriem Hafsi, Juba Agoun"
+  year: 2024
+  venue: "Proceedings of the 8th International Conference on Future Networks"
+  link: "https://dl.acm.org/doi/pdf/10.1145/3726122.3726190"
 
-- title: "Article ICWS 2022 : Query optimization applied to API composition"
-  authors: "Juba Agoun, Karim Benouaret"
+- title: "Empowering Data Federation Security in Polystore Systems"
+  authors: "J Agoun, J Terras, MS Hacid, S Hariri"
+  year: 2023
+  venue: "20th ACS/IEEE International Conference on Computer Systems and …"
+  link: "https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=pT-ZQfIAAAAJ&sortby=pubdate&citation_for_view=pT-ZQfIAAAAJ:IjCSPb-OGe4C"
+
+- title: "OptiClust4Rec: Unsupervised Data-Driven Methodology for Quality of Life Recommendations During a Medical Therapy"
+  authors: "J Agoun, Y Bouallouche, MS Hacid"
+  year: 2023
+  venue: "International Conference on Cooperative Information Systems 2023, CoopIS"
+  link: "https://hal.science/hal-05000962/document"
+
+- title: "The lannion report on big data and security monitoring research"
+  authors: "L d’Orazio, J Boukhobza, O Rana, J Agoun, L Gruenwald, H Rannou"
   year: 2022
-  venue: "ICWS 2022"
-  link: "https://doi.org/10.xxxx/xxxx"
+  venue: "2022 IEEE International Conference on Big Data (Big Data), 2960-2969"
+  link: ""
+
+- title: "Call limit-based composite service selection"
+  authors: "K Benouaret, J Agoun, I Benouaret, F Charoy"
+  year: 2022
+  venue: "2022 IEEE International Conference on Web Services (ICWS), 37-46"
+  link: "https://inria.hal.science/hal-03896182/document"
+
+- title: "Access control based on entity matching for secure data sharing"
+  authors: "J Agoun, MS Hacid"
+  year: 2022
+  venue: "Service Oriented Computing and Applications 16 (1), 31-44"
+  link: ""
+
+- title: "Data publishing: Availability of data under security policies"
+  authors: "J Agoun, MS Hacid"
+  year: 2020
+  venue: "International Symposium on Methodologies for Intelligent Systems, 277-286"
+  link: ""
+
+- title: "Data sharing in presence of access control policies"
+  authors: "J Agoun, MS Hacid"
+  year: 2019
+  venue: "OTM Confederated International Conferences 'On the Move to Meaningful …'"
+  link: ""
